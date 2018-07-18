@@ -1,6 +1,6 @@
-# Scipy Certificate
+# JupyterCon Certificate
 
-SciPy Certificate extension
+JupyterCon Certificate extension
 
 
 ## Prerequisites
@@ -10,7 +10,7 @@ SciPy Certificate extension
 ## Installation
 
 ```bash
-jupyter labextension install scipy_cert
+jupyter labextension install jupytercon_cert
 ```
 
 ## Development
@@ -36,7 +36,7 @@ Example:
 
 ```
 {
-  "given": "John Hunter",
-  "event": "SciPy 2012"
+  "given": "Jason Grout",
+  "event": "JupyterCon 2018"
 }
 ```

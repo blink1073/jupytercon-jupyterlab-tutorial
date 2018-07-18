@@ -1,4 +1,4 @@
-# Exercise 5: Extensions
+# Exercise 4: Extensions
 
 Remove all the sticky notes from your screen :-) and attempt the following.
 These are _guidelines_, feel free to ere on the side of workflow and
@@ -37,7 +37,7 @@ Choose from 1, 2 [1]: 2
 In the terminal, install your new extension
 
 ```
-conda activate scipy18jlab
+conda activate jupyterconjlab
 jupyter labextension install ./my_certificate_viewer
 ```
 
@@ -49,13 +49,13 @@ jupyter labextension list
 
 Refresh your browser to pick up the new extension javascript.
 
-Test it out by opening the `scipy2018.cert.json` file. Right-clicking on the file should show your viewer in the 'Open with' menu, and double-clicking should open and display the file in a blank tab.
+Test it out by opening the `jupytercon2018.cert.json` file. Right-clicking on the file should show your viewer in the 'Open with' menu, and double-clicking should open and display the file in a blank tab.
 
-Right-click on the `scipy2018.cert.json` file and open it in the editor to change the name to your name and the event to "Scipy 2018". Notice that the extension-rendered tab updates in real-time.
+Right-click on the `jupytercon2018.cert.json` file and open it in the editor to change the name to your name and the event to "JupyterCon 2018". Notice that the extension-rendered tab updates in real-time.
 
 ## Customize the display
 
-In order to develop our extension and have our changes appear automatically, we'll link the extension rather than just installing it. Run the following in your terminal that has the scipy18jlab environment active:
+In order to develop our extension and have our changes appear automatically, we'll link the extension rather than just installing it. Run the following in your terminal that has the jupytercon18jlab environment active:
 
 ```
 jupyter labextension link ./my_certificate_viewer
@@ -85,7 +85,7 @@ Now rebuild JupyterLab to incorporate these changes by running the following in 
 jupyter lab build
 ```
 
-Open the `scipy2018.cert.json` file again to see that things look a bit better.
+Open the `jupytercon2018.cert.json` file again to see that things look a bit better.
 
 ## Style the display
 

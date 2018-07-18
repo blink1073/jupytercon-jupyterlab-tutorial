@@ -16,7 +16,7 @@ import '../style/index.css';
 /**
  * The default mime type for the extension.
  */
-const MIME_TYPE = 'application/vnd.scipy2018.certificate';
+const MIME_TYPE = 'application/vnd.jupytercon2018.certificate';
 
 /**
  * The class name added to the extension.
@@ -80,7 +80,7 @@ const rendererFactory: IRenderMime.IRendererFactory = {
 
 console.log('CERT EXt')
 const extension: IRenderMime.IExtension = {
-  id: 'scipy_cert:plugin',
+  id: 'jupytercon_cert:plugin',
   rendererFactory,
   rank: 0,
   dataType: 'json',

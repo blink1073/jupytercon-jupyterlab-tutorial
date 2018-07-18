@@ -1,4 +1,4 @@
-name: scipy18jlab
+name: jupyterconjlab
 channels:
   - conda-forge
 dependencies:

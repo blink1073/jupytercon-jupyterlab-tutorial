@@ -1,5 +1,5 @@
 {
-  "name": "scipy_cert",
+  "name": "jupytercon_cert",
   "version": "0.1.0",
   "description": "A JupyterLab extension for rendering cert",
   "author": "matthias bussonnier <foo@foo.com>",
@@ -21,10 +21,10 @@
     "build": "tsc",
     "prepare": "npm run build",
     "watch": "tcs -w",
-    "extension:install": "jupyter labextension install scipy_cert",
-    "extension:uninstall": "jupyter labextension uninstall  scipy_cert",
-    "extension:enable": "jupyter labextension enable scipy_cert",
-    "extension:disable": "jupyter labextension disable scipy_cert"
+    "extension:install": "jupyter labextension install jupytercon_cert",
+    "extension:uninstall": "jupyter labextension uninstall  jupytercon_cert",
+    "extension:enable": "jupyter labextension enable jupytercon_cert",
+    "extension:disable": "jupyter labextension disable jupytercon_cert"
   },
   "dependencies": {
     "@jupyterlab/rendermime-interfaces": "^1.0.0",
